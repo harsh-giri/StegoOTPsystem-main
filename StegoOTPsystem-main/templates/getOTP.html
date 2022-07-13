@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href={{ url_for("static", filename="styles.css") }}>
+	<title>Get OTP - Stego OTP System</title>
+</head>
+<body>
+	<div class="container">
+		<form action="/get-otp" method="POST">
+			<input class="email" type="email" name="email">
+			<input class="submit" type="submit" name="submit" value="SUBMIT">
+		</form>
+	</div>
+</body>
+</html>

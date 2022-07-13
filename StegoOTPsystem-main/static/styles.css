@@ -1,0 +1,47 @@
+body {
+	background-color: #66ccff;
+	margin: 0;
+	padding: 0;
+	color: #ff7340;
+}
+
+.container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	margin: 20px;
+	padding: 20px;
+	width: 40%;
+}
+
+.lnk {
+	text-decoration: none;
+	font-size: 150%;
+	color: #ff7340;
+	font-weight: bolder;
+}
+
+.submit, .email {
+	color: #ff7340;
+}
+
+.email {
+	padding: 10px;
+	width: 80%;
+}
+
+.submit {
+	margin: 20px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	font-size: 120%;
+	font-weight: bolder;
+
+}
